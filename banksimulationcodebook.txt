@@ -1,0 +1,23 @@
+Bank Tellers
+
+Suppose a bank is open from 9:00 AM until 5:00 PM Monday-Friday. Assume customers
+arrive via a Poisson process with the following rate per hour.
+
+Time Rate
+9:00-10:00 	8
+10:00-11:30 	10
+11:30-1:00 	12
+1:00-3:00 	8
+3:00-5:00 	11
+
+Further assume the service time for each customer is well approximated by a Beta(1,2.3)
+distribution. Suppose there are 4 tellers scheduled to work each day and is given a half hour
+non-overlapping scheduled lunch break. The tellers continue working until the last customer
+service is complete plus 15 minutes of busy time to close the back each day.
+
+Simulate a day at the bank and estimate the percentage of time a teller is busy. How
+many total hours does the bank pay the four tellers?
+
+Simulate 10 days and estimate the percentage of time the teller is busy and the total
+paid hours. From your 10 days, calculate a 95% condence interval for these parameters
+using the appropriate procedure.
